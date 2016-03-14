@@ -1,0 +1,152 @@
+body{
+	font-size: 1.1em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: rgb(55, 187, 210);
+	color: #ffffff;
+	font-size: 1.2em;
+}
+
+.conteneur
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.element_header{
+	display: flex;
+	align-items: center;
+	padding: 0,2em;
+}
+
+header img {
+	margin: 1em;
+	width:10em;
+}
+
+.element_header:nth-child(2) {
+	padding-right: 3em;
+}
+
+.leader {
+	padding-top: 12em;
+	padding-bottom: 12em;
+	background-color: rgb(245, 245, 245);
+
+}
+.basLeader {
+	background-color: rgb(153, 153, 153);
+	padding: 1em;
+	color: #ffffff;
+	font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.border {
+	border: 5px solid rgb(68, 67, 65);
+}
+
+.bas {
+	padding: 1em 0;
+	font-weight: bold;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entertainment {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: rgb(250, 138, 126);
+}
+.basentertainment {
+	background-color: rgb(248, 80, 77);
+	color: #ffffff;
+}
+.sports {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: rgb(180, 131, 255);
+}
+.basSports {
+	background-color: rgb(126, 82, 197);
+	color: #ffffff;
+}
+.foodDrink {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: rgb(183, 246, 201);
+
+}
+.basFoodDrink {
+	background-color: rgb(53, 234, 181);
+	color: rgb(98, 98, 98);
+}
+.knowledge {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: rgb(251, 255, 134);
+}
+.basKnowledge {
+	background-color: rgb(251, 237, 26);
+	color: rgb(98, 98, 98);
+}
+.geography {
+	padding-top: 12em;
+	padding-bottom: 12em;
+	background-color: rgb(250, 138, 126);
+
+}
+.basGeography {
+	background-color: rgb(248, 80, 77);
+	color: #ffffff;
+}
+.history {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: rgb(126, 254, 255);
+}
+.basHistory {
+	background-color: rgb(62, 168, 246);
+	color: #ffffff;
+}
+.sciences {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: rgb(183, 246, 201);
+}
+.basSciences {
+	background-color: rgb(53, 234, 181);
+	color: rgb(98, 98, 98);
+}
+.movies {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: rgb(180, 131, 255);
+}
+.basMovies {
+	background-color: rgb(126, 82, 197);
+	color: #ffffff;
+}
+.music {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: rgb(126, 254, 255);
+}
+.basMusic {
+	background-color: rgb(62, 168, 246);
+	color: #ffffff;
+}
+.profile {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	background-color: rgb(245, 245, 245);
+}
+.basProfile {
+	background-color: rgb(153, 153, 153);
+	color: #ffffff;
+}
